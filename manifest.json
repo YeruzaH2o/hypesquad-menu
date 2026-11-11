@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "HypeSquad Menu",
+    "version": "1.0.0",
+    "description": "Menú para elegir o quitar tu casa de HypeSquad en Discord. By Paraiso fiscal @Taj Mahal.",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": [
+        "https://discord.com/*",
+        "https://canary.discord.com/*",
+        "https://ptb.discord.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "HypeSquad Menu",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    }
+}
